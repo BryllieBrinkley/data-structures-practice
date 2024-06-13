@@ -7,5 +7,6 @@
         <page name='Sets'/>
         <page name='Queues'/>
         <page name='Linked Lists'/>
+        <page name='Trees'/>
     </pages>
 </playground>
