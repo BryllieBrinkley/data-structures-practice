@@ -11,6 +11,7 @@ import Foundation
 // A root, branch and a leaf together are generally called "nodes" because they are all ultimately the same thing; a single value, plus an array of children.
 
 //building a basic tree
+
 final class Node<Value> {
     var value: Value
     private(set) var children: [Node]
@@ -144,3 +145,4 @@ print(chloe.count)
 // 2. The ability to know the size of the tree, telling us how many items in total there are.
 // 3.The ability to find a specific node in the tree, if it exists.
 
+// Binary trees are suitable for various applications, including representing hierarchical data, searching, and sorting algorithms (e.g., binary search tree).
